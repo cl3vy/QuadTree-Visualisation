@@ -4,7 +4,7 @@ function setup() {
   createCanvas(400, 400);
 
   let boundary = new Rectangle(200, 200, 200, 200);
-  qtree = new QuadTree(boundary, 1);
+  qtree = new QuadTree(boundary, 4);
 
   console.log(qtree);
 
